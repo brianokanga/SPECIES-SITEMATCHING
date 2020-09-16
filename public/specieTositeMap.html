@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>SPECIES</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			content="A fully featured admin theme which can be used to build CRM, CMS, etc."
+			name="description"
+		/>
+		<meta content="Coderthemes" name="author" />
+		<link
+			href="assets/css/vendor/jquery-jvectormap-1.2.2.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+		<link
+			href="assets/css/app-modern.min.css"
+			rel="stylesheet"
+			type="text/css"
+			id="light-style"
+		/>
+		<link
+			href="assets/css/app-modern-dark.min.css"
+			rel="stylesheet"
+			type="text/css"
+			id="dark-style"
+		/>
+	</head>
+	<body
+		class="loading"
+		data-layout="detached"
+		data-layout-config='{"leftSidebarCondensed":false,"darkMode":false, "showRightSidebarOnStart": true}'
+	>
+		<!-- Topbar Start -->
+		<div class="navbar-custom topnav-navbar topnav-navbar-dark">
+			<div class="container-fluid">
+				<!-- LOGO -->
+				<a href="index.html" class="topnav-logo">
+					<span class="topnav-logo-lg">
+						<img src="assets/images/logo-light.png" alt="" height="16" />
+					</span>
+					<span class="topnav-logo-sm">
+						<img src="assets/images/logo_sm.png" alt="" height="16" />
+					</span>
+				</a>
+
+				<a class="button-menu-mobile disable-btn">
+					<div class="lines">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- end Topbar -->
+		<!-- Start Content-->
+		<div class="container-fluid">
+			<!-- Begin page -->
+			<div class="wrapper">
+				<!-- ========== Left Sidebar Start ========== -->
+				<div class="left-side-menu left-side-menu-detached">
+					<!--- Sidemenu -->
+					<ul class="metismenu side-nav">
+						<li class="side-nav-item">
+							<a href="javascript: void(0);" class="side-nav-link">
+								<i class="uil-home-alt"></i>
+
+								<span> Dashboard </span>
+							</a>
+							<ul class="side-nav-second-level" aria-expanded="false">
+								<li>
+									<a href="#">Plant A tree</a>
+								</li>
+								<li>
+									<a href="#">My Plant Requests</a>
+								</li>
+								<li>
+									<a href="">Popular Tree Species</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<!-- Sidebar -left -->
+				</div>
+				<!-- Left Sidebar End -->
+
+				<!-- ========== MAIN Start ========== -->
+				<div class="content-page">
+					<div class="content">
+						<!-- start page title -->
+						<div class="row">
+							<div class="col-12">
+								<div class="page-title-box">
+									<h4 class="page-title">Plant A Tree</h4>
+								</div>
+							</div>
+						</div>
+						<!-- End page title -->
+
+						<!-- start specie to site map -->
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
+										<h4 class="header-title mb-3">World Vector Map</h4>
+										<div id="world-map-markers" style="height: 750px"></div>
+									</div>
+									<!-- end card-body-->
+								</div>
+								<!-- end card-->
+							</div>
+							<!-- end col-->
+						</div>
+						<!-- End specie to site map -->
+					</div>
+					<!-- End Content -->
+
+					<!-- Footer Start -->
+					<footer class="footer">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6">
+									©Species to Site Matching
+								</div>
+								<div class="col-md-6">
+									<div
+										class="text-md-right footer-links d-none d-md-block"
+									></div>
+								</div>
+							</div>
+						</div>
+					</footer>
+					<!-- end Footer -->
+				</div>
+				<!-- content-page -->
+			</div>
+			<!-- end wrapper-->
+		</div>
+		<!-- END Container -->
+
+		<!-- bundle -->
+		<script src="assets/js/vendor.min.js"></script>
+		<script src="assets/js/app.min.js"></script>
+
+		<!-- third party js -->
+		<script src="assets/js/vendor/apexcharts.min.js"></script>
+		<script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+		<script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+		<!-- third party js ends -->
+
+		<!-- demo app -->
+		<script src="assets/js/pages/demo.dashboard.js"></script>
+		<!-- end demo js-->
+	</body>
+</html>

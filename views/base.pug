@@ -1,0 +1,90 @@
+doctype html
+head
+	meta(charset='utf-8')
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	script(src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js')
+	link(
+		href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css',
+		rel='stylesheet'
+	)
+	link(
+		href='assets/css/vendor/jquery-jvectormap-1.2.2.css',
+		rel='stylesheet',
+		type='text/css'
+	)
+	link(href='assets/css/icons.min.css', rel='stylesheet', type='text/css')
+	link#light-style(
+		href='assets/css/app-modern.min.css',
+		rel='stylesheet',
+		type='text/css'
+	)
+	link#dark-style(
+		href='assets/css/app-modern-dark.min.css',
+		rel='stylesheet',
+		type='text/css'
+	)
+	title SPECIES
+// HEADER
+// Topbar Start
+.navbar-custom.topnav-navbar.topnav-navbar-dark
+	.container-fluid
+		// LOGO
+		a.topnav-logo(href='index.html')
+			span.topnav-logo-lg
+				img(src='assets/images/logo-light.png', alt='', height='16')
+			span.topnav-logo-sm
+				img(src='assets/images/logo_sm.png', alt='', height='16')
+		a.button-menu-mobile.disable-btn
+			.lines
+				span
+				span
+				span
+// end Topbar
+// Start Content
+.container-fluid
+	// Begin page
+	.wrapper
+		// ========== Left Sidebar Start ==========
+		.left-side-menu.left-side-menu-detached
+			// - Sidemenu
+			ul.metismenu.side-nav
+				li.side-nav-item
+					a.side-nav-link(href='javascript: void(0);')
+						i.uil-home-alt
+						span Dashboard
+					ul.side-nav-second-level(aria-expanded='false')
+						li
+							a(href='#') Plant A tree
+						li
+							a(href='#') My Plant Requests
+						li
+							a(href='') Popular Tree Species
+			.clearfix
+			// Sidebar -left
+
+		// Left Sidebar End
+	// end wrapper
+// END Container
+// bundle
+script(src='assets/js/vendor.min.js')
+script(src='assets/js/app.min.js')
+// third party js
+script(src='assets/js/vendor/apexcharts.min.js')
+script(src='assets/js/vendor/jquery-jvectormap-1.2.2.min.js')
+script(src='assets/js/vendor/jquery-jvectormap-world-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-1.2.2.min.js')
+script(src='assets/js/vendor/jquery-jvectormap-world-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-us-merc-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-in-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-au-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-us-il-chicago-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-uk-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-ca-lcc-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-europe-mill-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-fr-merc-en.js')
+script(src='assets/js/vendor/jquery-jvectormap-es-merc.js')
+script(src='assets/js/vendor/jquery-jvectormap-es-mill.js')
+// third party js ends
+// demo app
+script(src='assets/js/pages/demo.vector-maps.js')
+script(src='./assets/custom-js/map.js')
